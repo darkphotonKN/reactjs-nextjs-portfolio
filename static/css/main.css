@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Quicksand:300,400,500");
+@import url("https://fonts.googleapis.com/css?family=Pacifico|Quicksand:300,400,500");
 * {
   margin: 0;
   padding: 0;
@@ -19,7 +19,8 @@ header {
   margin-top: 20px;
   text-align: center; }
   header h2.main-title {
-    font-size: 1.6rem;
+    font-family: 'Pacifico';
+    font-size: 2.3rem;
     font-weight: 300;
     padding: 20px;
     color: #ffd399;
@@ -46,11 +47,11 @@ ul.menu {
   ul.menu li.menu-item {
     font-size: 1.4rem;
     font-weight: 300;
-    margin-right: 39px;
+    margin-right: 42px;
     display: inline-block;
     list-style: none;
     cursor: pointer;
-    color: rgba(0, 168, 255, 0.8); }
+    color: rgba(0, 168, 255, 0.7); }
     ul.menu li.menu-item:nth-child(1) {
       animation: float2 8500ms ease-in-out infinite; }
     ul.menu li.menu-item:nth-child(3) {

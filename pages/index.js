@@ -18,7 +18,7 @@ const Index = () => {
   return (
     <Layout>
       <header>
-        <h2 className="main-title">KRANTI NEBHWANI</h2>
+        <h2 className="main-title">Kranti Nebhwani</h2>
         <p className="main-desc">
           <span>web developer</span>
           <i class="fas fa-circle" />
