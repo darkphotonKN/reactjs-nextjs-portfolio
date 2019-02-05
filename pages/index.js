@@ -1,8 +1,6 @@
 import Router from 'next/router';
 import NProgress from 'nprogress';
 
-import Fade from 'react-reveal/Fade';
-
 import Layout from '../components/shared/Layout';
 import Menu from '../components/Landing/Menu';
 
@@ -20,7 +18,14 @@ const Index = () => {
   return (
     <Layout>
       <header>
-        <h2 className="main-title">Kranti @darkphotonKN</h2>
+        <h2 className="main-title">KRANTI NEBHWANI</h2>
+        <p className="main-desc">
+          <span>web developer</span>
+          <i class="fas fa-circle" />
+          <span>frontend engineer</span>
+          <i class="fas fa-circle" />
+          <span>tech enthusiast</span>
+        </p>
       </header>
       <Menu />
     </Layout>
